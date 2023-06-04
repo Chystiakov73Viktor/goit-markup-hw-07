@@ -599,7 +599,7 @@ img {
     cursor: pointer;
 }
 
-.modal-form-check:checked+.modal-form-check-desc>.modal-check {
+.modal-form-check:checked + .modal-form-check-desc > .modal-check {
     background-color: var(--background-button);
     border: none;
     fill: var(--color-hero);
